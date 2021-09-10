@@ -1,6 +1,7 @@
 import "./App.css";
 import HookCounter from "./Component/HookCounter";
 import HookCounterTwo from "./Component/HookCounterTwo";
+import UseStateArray from "./Component/UseStateArray";
 import UseStateObj from "./Component/UseStateObj";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       {/* <PostForm></PostForm> */}
       {/* <HookCounter></HookCounter>
       <HookCounterTwo></HookCounterTwo> */}
-      <UseStateObj></UseStateObj>
+      {/* <UseStateObj></UseStateObj> */}
+      <UseStateArray></UseStateArray>
     </div>
   );
 }
