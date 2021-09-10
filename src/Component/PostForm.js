@@ -22,6 +22,9 @@ class PostForm extends Component {
       .post("https://jsonplaceholder.typicode.com/posts", this.state)
       .then((result) => {
         console.log(result);
+        // alert(result.data.userId);
+        // alert(result.data.title);
+        // alert(result.data.body);
       })
       .catch((error) => {
         console.log(error);
